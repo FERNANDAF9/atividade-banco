@@ -64,8 +64,7 @@ def verifica_saldo_pix(valor_do_pix):
         lista_pix.append(valor_do_pix)
         print('Pix realizado com sucesso')
         saldo -= valor_do_pix
-        print(saldo)
-        resposta = input('Deseja fazer outro PIX?s/n: ')
+        resposta = input('Deseja realizar outro PIX?s/n: ')
         resposta = checa_resposta(resposta)
         if (resposta == 's'):
             novo_pix()
