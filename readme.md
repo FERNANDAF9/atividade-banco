@@ -11,7 +11,7 @@ O programa possui inicialmente um menu, com escolhas enumeradas de 1 a 5.
   </div>
 
 Foi definido que o usuário tem um saldo inicial de R$1000,00.
-A cada operação realizada, isto é, seja com um depósito, um saque ou PIX. o saldo irá se atualizar. Além disso, por fim, na opção de extrato, é exibida todas as operações realizadas anteriormente, assim como o saldo final.
+A cada operação realizada, isto é, seja com um depósito, um saque ou PIX, o saldo irá se atualizar. Além disso, na opção de extrato é exibida todas as operações realizadas anteriormente, assim como o saldo final.
 
 ## Depósito :inbox_tray:
 É pedido um valor do depósito, que se estiver correto após a validação, isto é, não ser um valor não numérico e ou negativo, é exibido uma mensagem de sucesso. Após, é possível realizar novos depósitos, ou escolher entre retornar ao menu principal ou encerrar o programa.
