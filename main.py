@@ -53,7 +53,7 @@ def verifica_saldo_pix(valor_do_pix):
     global saldo, lista_pix
     valor_do_pix = float(valor_do_pix)
     if (valor_do_pix > saldo):
-        print(f'Saldo insuficiente para realizar o PIX. Seu saldo atual é R${saldo}.')
+        print(f'Saldo insuficiente para realizar o PIX. Seu saldo atual é R${saldo:.2f}.')
         resposta = input('Deseja tentar novamente?s/n: ')
         checa_resposta(resposta)
         if (resposta == 's'):
@@ -189,8 +189,7 @@ def novo_deposito(resposta):
         validação_do_valor(deposito)
         lista_depositos.append(deposito)
         saldo += deposito
-        print(saldo)
-        resposta = input('Deseja realizar novo depósito? s/n ')
+        resposta = input('Depósito realizado com sucesso!\nDeseja realizar novo depósito? s/n ')
         resposta = checa_resposta(resposta)
         novo_deposito(resposta)
 
@@ -301,9 +300,7 @@ def main():
         valor_deposito = validação_do_valor(valor_deposito)
         lista_depositos.append(valor_deposito)
         saldo += valor_deposito
-        # saldo = saldo_inicial - sum(lista_saques) + sum(lista_depositos)
-        print(saldo)
-        resposta = input('Deseja realizar novo depósito? s/n ')
+        resposta = input('Depósito realizado com sucesso!\nDeseja realizar novo depósito? s/n ')
         checa_resposta(resposta)
         novo_deposito(resposta)
 
