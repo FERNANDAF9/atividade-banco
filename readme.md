@@ -28,3 +28,13 @@ A cada operação realizada, isto é, seja com um depósito, um saque ou PIX. o 
 </div>
 
 ## Pix :money_with_wings:
+
+É possível escolher dentre 4 opções, sendo elas CPF, celular, chave aleatória e email. Cada tipo de chave possui suas  respectivas verificações de validade dos dados, ainda que de forma simplificada.
+Após escolher o tipo de chave, é requerido o valor, e, caso tudo ocorra certo, é exibida uma mensagem de sucesso.
+Assim como no saque, o pix desconta dinheiro do seu saldo. Logo, há uma função que verifica se o saldo em conta é suficiente para realização do PIX.
+
+
+<div align=center>
+<img width=400 src='https://user-images.githubusercontent.com/56310579/198714678-6a562157-2d26-497b-a89d-751db1ebe127.png'/>
+</div>
+
