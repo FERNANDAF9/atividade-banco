@@ -39,7 +39,12 @@ Assim como no saque, o pix desconta dinheiro do seu saldo. Logo, há uma funçã
 <img width=400 src='https://user-images.githubusercontent.com/56310579/198716674-9576ef01-f466-4040-94d1-35602fec6652.png'/>
 </div>
 
-##Extrato bancário
-Por fim, é possível exibir no extrato todas as operações realizadas enquanto o programa está ativo, listadas por valor e tipo de operação, além do saldo finalm na conta.
+## Extrato bancário :scroll:
+
+Por fim, é possível exibir no extrato todas as operações realizadas enquanto o programa está ativo, listadas por valor e tipo de operação, além do saldo final da conta.
+<div align=center>
+<img width=400 src='https://user-images.githubusercontent.com/56310579/198723365-37e9e059-0d2b-4d47-96ca-604f10e98036.png'/>
+</div>
+
 
 
